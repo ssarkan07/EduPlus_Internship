@@ -1,0 +1,38 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# ML / Deep Learning artifacts & weights
+*.pt
+*.pth
+*.bin
+*.onnx
+*.pkl
+*.joblib
+mlruns/
+lightning_logs/
+wandb/
+
+# Data & cache
+data/
+cache/
+.cache/
+
+# Environment variables
+.env
+.env.local
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
